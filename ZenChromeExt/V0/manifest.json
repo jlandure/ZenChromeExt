@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "ZenExt Web Blocker",
+  "description": "This extension blocks internet",
+  "version": "1.0",
+  "permissions": [
+                "webRequest",
+                "http://*/*",
+            	"https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "ok.png",
+    "default_popup": "popup.html"
+  }
+}
